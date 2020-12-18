@@ -1,1 +1,1 @@
-pod "TSMarketDeatilModule"
+pod "RMCandleKit"
