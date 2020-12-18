@@ -1,0 +1,7 @@
+TSMarketDeatilModule.xcodeproj/xcuserdata/
+TSMarketDeatilModule.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+TSMarketDeatilModule.xcodeproj/project.xcworkspace/xcuserdata/

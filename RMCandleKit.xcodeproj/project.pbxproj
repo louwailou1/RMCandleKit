@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A68B52B69C545F2651E2D4C /* Pods_RMCandleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D17FC5941B3D668079F1E0 /* Pods_RMCandleKit.framework */; };
+		9F16B71C21BF629000DF81F0 /* RMNewOptionMarketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F16B71B21BF629000DF81F0 /* RMNewOptionMarketView.m */; };
+		9F30C68E2248E85F0099BC19 /* RMCandleBaseMinuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F30C68D2248E85F0099BC19 /* RMCandleBaseMinuteView.m */; };
+		9F3818DF21E44C9500479DB1 /* RMCandleConStant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3818DE21E44C9500479DB1 /* RMCandleConStant.m */; };
+		9FCA14AC2043A7E80045EAC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA14AB2043A7E80045EAC9 /* AppDelegate.m */; };
+		9FCA14AF2043A7E80045EAC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA14AE2043A7E80045EAC9 /* ViewController.m */; };
+		9FCA14B22043A7E80045EAC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCA14B02043A7E80045EAC9 /* Main.storyboard */; };
+		9FCA14B42043A7E80045EAC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCA14B32043A7E80045EAC9 /* Assets.xcassets */; };
+		9FCA14B72043A7E80045EAC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCA14B52043A7E80045EAC9 /* LaunchScreen.storyboard */; };
+		9FCA14BA2043A7E80045EAC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA14B92043A7E80045EAC9 /* main.m */; };
+		9FCA14C32043A8580045EAC9 /* RMCandleKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9FCA14C22043A8580045EAC9 /* RMCandleKit.podspec */; };
+		9FCA152C2043A8D80045EAC9 /* RMKLineAndMinuteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA152B2043A8D80045EAC9 /* RMKLineAndMinuteController.m */; };
+		9FCA16612043D74D0045EAC9 /* UIColor+RMCandleStockTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16192043D74D0045EAC9 /* UIColor+RMCandleStockTheme.m */; };
+		9FCA16622043D74D0045EAC9 /* RMCandleStockVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA161C2043D74D0045EAC9 /* RMCandleStockVariable.m */; };
+		9FCA16632043D74D0045EAC9 /* RMCandleTopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16202043D74D0045EAC9 /* RMCandleTopBarView.m */; };
+		9FCA16642043D74D0045EAC9 /* RMCandleLinePositionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16292043D74D0045EAC9 /* RMCandleLinePositionModel.m */; };
+		9FCA16652043D74D0045EAC9 /* RMCandleVolumePositionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA162C2043D74D0045EAC9 /* RMCandleVolumePositionModel.m */; };
+		9FCA16662043D74D0045EAC9 /* RMCandleKline.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16322043D74D0045EAC9 /* RMCandleKline.m */; };
+		9FCA16672043D74D0045EAC9 /* MAline.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16352043D74D0045EAC9 /* MAline.m */; };
+		9FCA16682043D74D0045EAC9 /* RMCandleKlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16372043D74D0045EAC9 /* RMCandleKlineView.m */; };
+		9FCA16692043D74D0045EAC9 /* RMCandleKlineMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA163A2043D74D0045EAC9 /* RMCandleKlineMaskView.m */; };
+		9FCA166A2043D74D0045EAC9 /* RMCandleKlineVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA163D2043D74D0045EAC9 /* RMCandleKlineVolumeView.m */; };
+		9FCA166B2043D74D0045EAC9 /* RMCandleStockViewMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16402043D74D0045EAC9 /* RMCandleStockViewMaskView.m */; };
+		9FCA166C2043D74D0045EAC9 /* RMCandleStockScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16432043D74D0045EAC9 /* RMCandleStockScrollView.m */; };
+		9FCA166D2043D74D0045EAC9 /* YYFiveRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16472043D74D0045EAC9 /* YYFiveRecordTableViewCell.m */; };
+		9FCA166E2043D74D0045EAC9 /* YYFiveRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FCA16482043D74D0045EAC9 /* YYFiveRecordTableViewCell.xib */; };
+		9FCA166F2043D74D0045EAC9 /* YYFiveRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA164A2043D74D0045EAC9 /* YYFiveRecordView.m */; };
+		9FCA16702043D74D0045EAC9 /* YYTimeLineMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA164D2043D74D0045EAC9 /* YYTimeLineMaskView.m */; };
+		9FCA16712043D74D0045EAC9 /* YYTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16502043D74D0045EAC9 /* YYTimeLineView.m */; };
+		9FCA16722043D74D0045EAC9 /* YYTimeLineVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16532043D74D0045EAC9 /* YYTimeLineVolumeView.m */; };
+		9FCA16732043D74D0045EAC9 /* RMCandleStockViewKKline.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16552043D74D0045EAC9 /* RMCandleStockViewKKline.m */; };
+		9FCA16742043D74D0045EAC9 /* RMCandleStockViewTTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16572043D74D0045EAC9 /* RMCandleStockViewTTimeLine.m */; };
+		9FCA16752043D74D0045EAC9 /* RMStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16592043D74D0045EAC9 /* RMStock.m */; };
+		9FCA16762043D74D0045EAC9 /* RMFiveRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA165C2043D74D0045EAC9 /* RMFiveRecordModel.m */; };
+		9FCA16772043D74D0045EAC9 /* RMLineDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA165E2043D74D0045EAC9 /* RMLineDataModel.m */; };
+		9FCA16782043D74D0045EAC9 /* RMTimeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16602043D74D0045EAC9 /* RMTimeLineModel.m */; };
+		9FCA16872043F7C90045EAC9 /* RMNewFuturesMarketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16862043F7C90045EAC9 /* RMNewFuturesMarketView.m */; };
+		9FCA168A2044F6AC0045EAC9 /* RMTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16892044F6AC0045EAC9 /* RMTimeLineView.m */; };
+		9FCA168E2044F7220045EAC9 /* RMCandleYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA168C2044F7220045EAC9 /* RMCandleYAxis.m */; };
+		9FCA16912044F74E0045EAC9 /* RMCandleAnimateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA168F2044F74D0045EAC9 /* RMCandleAnimateView.m */; };
+		9FCA16942044F8B20045EAC9 /* NSTimer+RMCandleBlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16922044F8B20045EAC9 /* NSTimer+RMCandleBlocksSupport.m */; };
+		9FCA16972044F8FC0045EAC9 /* RMCandleTimeOffsetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16952044F8FC0045EAC9 /* RMCandleTimeOffsetView.m */; };
+		9FCA169B2044F9500045EAC9 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16992044F94F0045EAC9 /* NSDate+Category.m */; };
+		9FCA16A3204559F10045EAC9 /* RMCandlePageToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16A2204559F10045EAC9 /* RMCandlePageToolBar.m */; };
+		9FCA16A620455A290045EAC9 /* RMCandleLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16A420455A280045EAC9 /* RMCandleLineView.m */; };
+		9FCA16A9204587FE0045EAC9 /* RMCandleBaseKLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA16A7204587FD0045EAC9 /* RMCandleBaseKLineView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F7DF4E05BC51C071E2E3968 /* Pods-RMCandleKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMCandleKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMCandleKit/Pods-RMCandleKit.debug.xcconfig"; sourceTree = "<group>"; };
+		44D17FC5941B3D668079F1E0 /* Pods_RMCandleKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMCandleKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		884EFBDA2EA6D53862CFF241 /* Pods-RMCandleKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMCandleKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMCandleKit/Pods-RMCandleKit.release.xcconfig"; sourceTree = "<group>"; };
+		9F16B71A21BF629000DF81F0 /* RMNewOptionMarketView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMNewOptionMarketView.h; sourceTree = "<group>"; };
+		9F16B71B21BF629000DF81F0 /* RMNewOptionMarketView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMNewOptionMarketView.m; sourceTree = "<group>"; };
+		9F30C68C2248E85F0099BC19 /* RMCandleBaseMinuteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMCandleBaseMinuteView.h; sourceTree = "<group>"; };
+		9F30C68D2248E85F0099BC19 /* RMCandleBaseMinuteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMCandleBaseMinuteView.m; sourceTree = "<group>"; };
+		9F3818DD21E44C9500479DB1 /* RMCandleConStant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMCandleConStant.h; sourceTree = "<group>"; };
+		9F3818DE21E44C9500479DB1 /* RMCandleConStant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMCandleConStant.m; sourceTree = "<group>"; };
+		9FCA14A72043A7E80045EAC9 /* RMCandleKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMCandleKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FCA14AA2043A7E80045EAC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FCA14AB2043A7E80045EAC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FCA14AD2043A7E80045EAC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9FCA14AE2043A7E80045EAC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9FCA14B12043A7E80045EAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FCA14B32043A7E80045EAC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FCA14B62043A7E80045EAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FCA14B82043A7E80045EAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FCA14B92043A7E80045EAC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FCA14C22043A8580045EAC9 /* RMCandleKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RMCandleKit.podspec; sourceTree = SOURCE_ROOT; };
+		9FCA152A2043A8D80045EAC9 /* RMKLineAndMinuteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMKLineAndMinuteController.h; sourceTree = "<group>"; };
+		9FCA152B2043A8D80045EAC9 /* RMKLineAndMinuteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMKLineAndMinuteController.m; sourceTree = "<group>"; };
+		9FCA16162043D74D0045EAC9 /* RMCandleViewConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleViewConstant.h; sourceTree = "<group>"; };
+		9FCA16182043D74D0045EAC9 /* UIColor+RMCandleStockTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RMCandleStockTheme.h"; sourceTree = "<group>"; };
+		9FCA16192043D74D0045EAC9 /* UIColor+RMCandleStockTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RMCandleStockTheme.m"; sourceTree = "<group>"; };
+		9FCA161B2043D74D0045EAC9 /* RMCandleStockVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleStockVariable.h; sourceTree = "<group>"; };
+		9FCA161C2043D74D0045EAC9 /* RMCandleStockVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleStockVariable.m; sourceTree = "<group>"; };
+		9FCA161F2043D74D0045EAC9 /* RMCandleTopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleTopBarView.h; sourceTree = "<group>"; };
+		9FCA16202043D74D0045EAC9 /* RMCandleTopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleTopBarView.m; sourceTree = "<group>"; };
+		9FCA16242043D74D0045EAC9 /* RMCandleStockDataProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleStockDataProtocol.h; sourceTree = "<group>"; };
+		9FCA16252043D74D0045EAC9 /* RMCandleStockFiveRecordProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleStockFiveRecordProtocol.h; sourceTree = "<group>"; };
+		9FCA16262043D74D0045EAC9 /* RMCandleStockTimeLineProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleStockTimeLineProtocol.h; sourceTree = "<group>"; };
+		9FCA16282043D74D0045EAC9 /* RMCandleLinePositionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleLinePositionModel.h; sourceTree = "<group>"; };
+		9FCA16292043D74D0045EAC9 /* RMCandleLinePositionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleLinePositionModel.m; sourceTree = "<group>"; };
+		9FCA162B2043D74D0045EAC9 /* RMCandleVolumePositionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleVolumePositionModel.h; sourceTree = "<group>"; };
+		9FCA162C2043D74D0045EAC9 /* RMCandleVolumePositionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleVolumePositionModel.m; sourceTree = "<group>"; };
+		9FCA16312043D74D0045EAC9 /* RMCandleKline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleKline.h; sourceTree = "<group>"; };
+		9FCA16322043D74D0045EAC9 /* RMCandleKline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleKline.m; sourceTree = "<group>"; };
+		9FCA16342043D74D0045EAC9 /* MAline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAline.h; sourceTree = "<group>"; };
+		9FCA16352043D74D0045EAC9 /* MAline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAline.m; sourceTree = "<group>"; };
+		9FCA16362043D74D0045EAC9 /* RMCandleKlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleKlineView.h; sourceTree = "<group>"; };
+		9FCA16372043D74D0045EAC9 /* RMCandleKlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleKlineView.m; sourceTree = "<group>"; };
+		9FCA16392043D74D0045EAC9 /* RMCandleKlineMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleKlineMaskView.h; sourceTree = "<group>"; };
+		9FCA163A2043D74D0045EAC9 /* RMCandleKlineMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleKlineMaskView.m; sourceTree = "<group>"; };
+		9FCA163C2043D74D0045EAC9 /* RMCandleKlineVolumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleKlineVolumeView.h; sourceTree = "<group>"; };
+		9FCA163D2043D74D0045EAC9 /* RMCandleKlineVolumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleKlineVolumeView.m; sourceTree = "<group>"; };
+		9FCA163F2043D74D0045EAC9 /* RMCandleStockViewMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleStockViewMaskView.h; sourceTree = "<group>"; };
+		9FCA16402043D74D0045EAC9 /* RMCandleStockViewMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleStockViewMaskView.m; sourceTree = "<group>"; };
+		9FCA16422043D74D0045EAC9 /* RMCandleStockScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleStockScrollView.h; sourceTree = "<group>"; };
+		9FCA16432043D74D0045EAC9 /* RMCandleStockScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleStockScrollView.m; sourceTree = "<group>"; };
+		9FCA16462043D74D0045EAC9 /* YYFiveRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFiveRecordTableViewCell.h; sourceTree = "<group>"; };
+		9FCA16472043D74D0045EAC9 /* YYFiveRecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFiveRecordTableViewCell.m; sourceTree = "<group>"; };
+		9FCA16482043D74D0045EAC9 /* YYFiveRecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYFiveRecordTableViewCell.xib; sourceTree = "<group>"; };
+		9FCA16492043D74D0045EAC9 /* YYFiveRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFiveRecordView.h; sourceTree = "<group>"; };
+		9FCA164A2043D74D0045EAC9 /* YYFiveRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFiveRecordView.m; sourceTree = "<group>"; };
+		9FCA164C2043D74D0045EAC9 /* YYTimeLineMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimeLineMaskView.h; sourceTree = "<group>"; };
+		9FCA164D2043D74D0045EAC9 /* YYTimeLineMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimeLineMaskView.m; sourceTree = "<group>"; };
+		9FCA164F2043D74D0045EAC9 /* YYTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimeLineView.h; sourceTree = "<group>"; };
+		9FCA16502043D74D0045EAC9 /* YYTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimeLineView.m; sourceTree = "<group>"; };
+		9FCA16522043D74D0045EAC9 /* YYTimeLineVolumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimeLineVolumeView.h; sourceTree = "<group>"; };
+		9FCA16532043D74D0045EAC9 /* YYTimeLineVolumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimeLineVolumeView.m; sourceTree = "<group>"; };
+		9FCA16542043D74D0045EAC9 /* RMCandleStockViewKKline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleStockViewKKline.h; sourceTree = "<group>"; };
+		9FCA16552043D74D0045EAC9 /* RMCandleStockViewKKline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleStockViewKKline.m; sourceTree = "<group>"; };
+		9FCA16562043D74D0045EAC9 /* RMCandleStockViewTTimeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleStockViewTTimeLine.h; sourceTree = "<group>"; };
+		9FCA16572043D74D0045EAC9 /* RMCandleStockViewTTimeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleStockViewTTimeLine.m; sourceTree = "<group>"; };
+		9FCA16582043D74D0045EAC9 /* RMStock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStock.h; sourceTree = "<group>"; };
+		9FCA16592043D74D0045EAC9 /* RMStock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStock.m; sourceTree = "<group>"; };
+		9FCA165B2043D74D0045EAC9 /* RMFiveRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMFiveRecordModel.h; sourceTree = "<group>"; };
+		9FCA165C2043D74D0045EAC9 /* RMFiveRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMFiveRecordModel.m; sourceTree = "<group>"; };
+		9FCA165D2043D74D0045EAC9 /* RMLineDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLineDataModel.h; sourceTree = "<group>"; };
+		9FCA165E2043D74D0045EAC9 /* RMLineDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLineDataModel.m; sourceTree = "<group>"; };
+		9FCA165F2043D74D0045EAC9 /* RMTimeLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMTimeLineModel.h; sourceTree = "<group>"; };
+		9FCA16602043D74D0045EAC9 /* RMTimeLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMTimeLineModel.m; sourceTree = "<group>"; };
+		9FCA16852043F7C90045EAC9 /* RMNewFuturesMarketView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMNewFuturesMarketView.h; sourceTree = "<group>"; };
+		9FCA16862043F7C90045EAC9 /* RMNewFuturesMarketView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMNewFuturesMarketView.m; sourceTree = "<group>"; };
+		9FCA16882044F6AB0045EAC9 /* RMTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMTimeLineView.h; sourceTree = "<group>"; };
+		9FCA16892044F6AC0045EAC9 /* RMTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMTimeLineView.m; sourceTree = "<group>"; };
+		9FCA168B2044F6FD0045EAC9 /* ColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
+		9FCA168C2044F7220045EAC9 /* RMCandleYAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleYAxis.m; sourceTree = "<group>"; };
+		9FCA168D2044F7220045EAC9 /* RMCandleYAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleYAxis.h; sourceTree = "<group>"; };
+		9FCA168F2044F74D0045EAC9 /* RMCandleAnimateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleAnimateView.m; sourceTree = "<group>"; };
+		9FCA16902044F74E0045EAC9 /* RMCandleAnimateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleAnimateView.h; sourceTree = "<group>"; };
+		9FCA16922044F8B20045EAC9 /* NSTimer+RMCandleBlocksSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+RMCandleBlocksSupport.m"; sourceTree = "<group>"; };
+		9FCA16932044F8B20045EAC9 /* NSTimer+RMCandleBlocksSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+RMCandleBlocksSupport.h"; sourceTree = "<group>"; };
+		9FCA16952044F8FC0045EAC9 /* RMCandleTimeOffsetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleTimeOffsetView.m; sourceTree = "<group>"; };
+		9FCA16962044F8FC0045EAC9 /* RMCandleTimeOffsetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleTimeOffsetView.h; sourceTree = "<group>"; };
+		9FCA16982044F9340045EAC9 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		9FCA16992044F94F0045EAC9 /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		9FCA169A2044F94F0045EAC9 /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		9FCA16A1204559F10045EAC9 /* RMCandlePageToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandlePageToolBar.h; sourceTree = "<group>"; };
+		9FCA16A2204559F10045EAC9 /* RMCandlePageToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandlePageToolBar.m; sourceTree = "<group>"; };
+		9FCA16A420455A280045EAC9 /* RMCandleLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleLineView.m; sourceTree = "<group>"; };
+		9FCA16A520455A280045EAC9 /* RMCandleLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleLineView.h; sourceTree = "<group>"; };
+		9FCA16A7204587FD0045EAC9 /* RMCandleBaseKLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCandleBaseKLineView.m; sourceTree = "<group>"; };
+		9FCA16A8204587FE0045EAC9 /* RMCandleBaseKLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCandleBaseKLineView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FCA14A42043A7E80045EAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A68B52B69C545F2651E2D4C /* Pods_RMCandleKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ACE1C915E0A21EEBF0DDE9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D17FC5941B3D668079F1E0 /* Pods_RMCandleKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		735B2BFB60378BC39825546E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F7DF4E05BC51C071E2E3968 /* Pods-RMCandleKit.debug.xcconfig */,
+				884EFBDA2EA6D53862CFF241 /* Pods-RMCandleKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FCA149E2043A7E80045EAC9 = {
+			isa = PBXGroup;
+			children = (
+				9FCA14A92043A7E80045EAC9 /* RMCandleKit */,
+				9FCA14A82043A7E80045EAC9 /* Products */,
+				735B2BFB60378BC39825546E /* Pods */,
+				3ACE1C915E0A21EEBF0DDE9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FCA14A82043A7E80045EAC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA14A72043A7E80045EAC9 /* RMCandleKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FCA14A92043A7E80045EAC9 /* RMCandleKit */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA14C02043A84B0045EAC9 /* RMCandleKit */,
+				9FCA14AA2043A7E80045EAC9 /* AppDelegate.h */,
+				9FCA14AB2043A7E80045EAC9 /* AppDelegate.m */,
+				9FCA14AD2043A7E80045EAC9 /* ViewController.h */,
+				9FCA14AE2043A7E80045EAC9 /* ViewController.m */,
+				9FCA14B02043A7E80045EAC9 /* Main.storyboard */,
+				9FCA14B32043A7E80045EAC9 /* Assets.xcassets */,
+				9FCA14B52043A7E80045EAC9 /* LaunchScreen.storyboard */,
+				9FCA14B82043A7E80045EAC9 /* Info.plist */,
+				9FCA14B92043A7E80045EAC9 /* main.m */,
+				9FCA14C22043A8580045EAC9 /* RMCandleKit.podspec */,
+			);
+			path = RMCandleKit;
+			sourceTree = "<group>";
+		};
+		9FCA14C02043A84B0045EAC9 /* RMCandleKit */ = {
+			isa = PBXGroup;
+			children = (
+				9F3818DD21E44C9500479DB1 /* RMCandleConStant.h */,
+				9F3818DE21E44C9500479DB1 /* RMCandleConStant.m */,
+				9FCA167E2043F15D0045EAC9 /* Futures */,
+				9FCA15932043ADAE0045EAC9 /* Stock */,
+			);
+			path = RMCandleKit;
+			sourceTree = "<group>";
+		};
+		9FCA15932043ADAE0045EAC9 /* Stock */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA152A2043A8D80045EAC9 /* RMKLineAndMinuteController.h */,
+				9FCA152B2043A8D80045EAC9 /* RMKLineAndMinuteController.m */,
+				9F30C68C2248E85F0099BC19 /* RMCandleBaseMinuteView.h */,
+				9F30C68D2248E85F0099BC19 /* RMCandleBaseMinuteView.m */,
+				9FCA16132043D74D0045EAC9 /* Stock */,
+			);
+			path = Stock;
+			sourceTree = "<group>";
+		};
+		9FCA16132043D74D0045EAC9 /* Stock */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16142043D74D0045EAC9 /* Config[主题+定义] */,
+				9FCA161D2043D74D0045EAC9 /* Packages */,
+				9FCA16212043D74D0045EAC9 /* Stock */,
+				9FCA165A2043D74D0045EAC9 /* StockDataModel[数据源Model] */,
+			);
+			path = Stock;
+			sourceTree = "<group>";
+		};
+		9FCA16142043D74D0045EAC9 /* Config[主题+定义] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16152043D74D0045EAC9 /* Constant[常量定义] */,
+				9FCA16172043D74D0045EAC9 /* Theme[主题] */,
+				9FCA161A2043D74D0045EAC9 /* Variable[变量] */,
+			);
+			path = "Config[主题+定义]";
+			sourceTree = "<group>";
+		};
+		9FCA16152043D74D0045EAC9 /* Constant[常量定义] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16162043D74D0045EAC9 /* RMCandleViewConstant.h */,
+			);
+			path = "Constant[常量定义]";
+			sourceTree = "<group>";
+		};
+		9FCA16172043D74D0045EAC9 /* Theme[主题] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16182043D74D0045EAC9 /* UIColor+RMCandleStockTheme.h */,
+				9FCA16192043D74D0045EAC9 /* UIColor+RMCandleStockTheme.m */,
+			);
+			path = "Theme[主题]";
+			sourceTree = "<group>";
+		};
+		9FCA161A2043D74D0045EAC9 /* Variable[变量] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA161B2043D74D0045EAC9 /* RMCandleStockVariable.h */,
+				9FCA161C2043D74D0045EAC9 /* RMCandleStockVariable.m */,
+			);
+			path = "Variable[变量]";
+			sourceTree = "<group>";
+		};
+		9FCA161D2043D74D0045EAC9 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA161E2043D74D0045EAC9 /* TopBar */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		9FCA161E2043D74D0045EAC9 /* TopBar */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA161F2043D74D0045EAC9 /* RMCandleTopBarView.h */,
+				9FCA16202043D74D0045EAC9 /* RMCandleTopBarView.m */,
+			);
+			path = TopBar;
+			sourceTree = "<group>";
+		};
+		9FCA16212043D74D0045EAC9 /* Stock */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16222043D74D0045EAC9 /* StockModel */,
+				9FCA162D2043D74D0045EAC9 /* StockView */,
+				9FCA16582043D74D0045EAC9 /* RMStock.h */,
+				9FCA16592043D74D0045EAC9 /* RMStock.m */,
+			);
+			path = Stock;
+			sourceTree = "<group>";
+		};
+		9FCA16222043D74D0045EAC9 /* StockModel */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16232043D74D0045EAC9 /* StockDataProtocol */,
+				9FCA16272043D74D0045EAC9 /* StockLinePositionModel */,
+				9FCA162A2043D74D0045EAC9 /* StockVolumePositionModel */,
+			);
+			path = StockModel;
+			sourceTree = "<group>";
+		};
+		9FCA16232043D74D0045EAC9 /* StockDataProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16242043D74D0045EAC9 /* RMCandleStockDataProtocol.h */,
+				9FCA16252043D74D0045EAC9 /* RMCandleStockFiveRecordProtocol.h */,
+				9FCA16262043D74D0045EAC9 /* RMCandleStockTimeLineProtocol.h */,
+			);
+			path = StockDataProtocol;
+			sourceTree = "<group>";
+		};
+		9FCA16272043D74D0045EAC9 /* StockLinePositionModel */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16282043D74D0045EAC9 /* RMCandleLinePositionModel.h */,
+				9FCA16292043D74D0045EAC9 /* RMCandleLinePositionModel.m */,
+			);
+			path = StockLinePositionModel;
+			sourceTree = "<group>";
+		};
+		9FCA162A2043D74D0045EAC9 /* StockVolumePositionModel */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA162B2043D74D0045EAC9 /* RMCandleVolumePositionModel.h */,
+				9FCA162C2043D74D0045EAC9 /* RMCandleVolumePositionModel.m */,
+			);
+			path = StockVolumePositionModel;
+			sourceTree = "<group>";
+		};
+		9FCA162D2043D74D0045EAC9 /* StockView */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA162E2043D74D0045EAC9 /* LineView[K线图] */,
+				9FCA163E2043D74D0045EAC9 /* MaskView[TopBar遮罩] */,
+				9FCA16412043D74D0045EAC9 /* StockScrollview[画背景线] */,
+				9FCA16442043D74D0045EAC9 /* TimeLine[分时图] */,
+				9FCA16542043D74D0045EAC9 /* RMCandleStockViewKKline.h */,
+				9FCA16552043D74D0045EAC9 /* RMCandleStockViewKKline.m */,
+				9FCA16562043D74D0045EAC9 /* RMCandleStockViewTTimeLine.h */,
+				9FCA16572043D74D0045EAC9 /* RMCandleStockViewTTimeLine.m */,
+			);
+			path = StockView;
+			sourceTree = "<group>";
+		};
+		9FCA162E2043D74D0045EAC9 /* LineView[K线图] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA162F2043D74D0045EAC9 /* KlineView[K线上部分] */,
+				9FCA16382043D74D0045EAC9 /* MaskView[遮罩] */,
+				9FCA163B2043D74D0045EAC9 /* VolumeView[成交量] */,
+			);
+			path = "LineView[K线图]";
+			sourceTree = "<group>";
+		};
+		9FCA162F2043D74D0045EAC9 /* KlineView[K线上部分] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16302043D74D0045EAC9 /* Kline */,
+				9FCA16332043D74D0045EAC9 /* MAline */,
+				9FCA16362043D74D0045EAC9 /* RMCandleKlineView.h */,
+				9FCA16372043D74D0045EAC9 /* RMCandleKlineView.m */,
+			);
+			path = "KlineView[K线上部分]";
+			sourceTree = "<group>";
+		};
+		9FCA16302043D74D0045EAC9 /* Kline */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16312043D74D0045EAC9 /* RMCandleKline.h */,
+				9FCA16322043D74D0045EAC9 /* RMCandleKline.m */,
+			);
+			path = Kline;
+			sourceTree = "<group>";
+		};
+		9FCA16332043D74D0045EAC9 /* MAline */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16342043D74D0045EAC9 /* MAline.h */,
+				9FCA16352043D74D0045EAC9 /* MAline.m */,
+			);
+			path = MAline;
+			sourceTree = "<group>";
+		};
+		9FCA16382043D74D0045EAC9 /* MaskView[遮罩] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16392043D74D0045EAC9 /* RMCandleKlineMaskView.h */,
+				9FCA163A2043D74D0045EAC9 /* RMCandleKlineMaskView.m */,
+			);
+			path = "MaskView[遮罩]";
+			sourceTree = "<group>";
+		};
+		9FCA163B2043D74D0045EAC9 /* VolumeView[成交量] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA163C2043D74D0045EAC9 /* RMCandleKlineVolumeView.h */,
+				9FCA163D2043D74D0045EAC9 /* RMCandleKlineVolumeView.m */,
+			);
+			path = "VolumeView[成交量]";
+			sourceTree = "<group>";
+		};
+		9FCA163E2043D74D0045EAC9 /* MaskView[TopBar遮罩] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA163F2043D74D0045EAC9 /* RMCandleStockViewMaskView.h */,
+				9FCA16402043D74D0045EAC9 /* RMCandleStockViewMaskView.m */,
+			);
+			path = "MaskView[TopBar遮罩]";
+			sourceTree = "<group>";
+		};
+		9FCA16412043D74D0045EAC9 /* StockScrollview[画背景线] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16422043D74D0045EAC9 /* RMCandleStockScrollView.h */,
+				9FCA16432043D74D0045EAC9 /* RMCandleStockScrollView.m */,
+			);
+			path = "StockScrollview[画背景线]";
+			sourceTree = "<group>";
+		};
+		9FCA16442043D74D0045EAC9 /* TimeLine[分时图] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16452043D74D0045EAC9 /* FiveRecordView[五档] */,
+				9FCA164B2043D74D0045EAC9 /* MaskView[遮罩] */,
+				9FCA164E2043D74D0045EAC9 /* TimeLineView[分时图] */,
+				9FCA16512043D74D0045EAC9 /* VolumeView[成交量] */,
+			);
+			path = "TimeLine[分时图]";
+			sourceTree = "<group>";
+		};
+		9FCA16452043D74D0045EAC9 /* FiveRecordView[五档] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16462043D74D0045EAC9 /* YYFiveRecordTableViewCell.h */,
+				9FCA16472043D74D0045EAC9 /* YYFiveRecordTableViewCell.m */,
+				9FCA16482043D74D0045EAC9 /* YYFiveRecordTableViewCell.xib */,
+				9FCA16492043D74D0045EAC9 /* YYFiveRecordView.h */,
+				9FCA164A2043D74D0045EAC9 /* YYFiveRecordView.m */,
+			);
+			path = "FiveRecordView[五档]";
+			sourceTree = "<group>";
+		};
+		9FCA164B2043D74D0045EAC9 /* MaskView[遮罩] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA164C2043D74D0045EAC9 /* YYTimeLineMaskView.h */,
+				9FCA164D2043D74D0045EAC9 /* YYTimeLineMaskView.m */,
+			);
+			path = "MaskView[遮罩]";
+			sourceTree = "<group>";
+		};
+		9FCA164E2043D74D0045EAC9 /* TimeLineView[分时图] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA164F2043D74D0045EAC9 /* YYTimeLineView.h */,
+				9FCA16502043D74D0045EAC9 /* YYTimeLineView.m */,
+			);
+			path = "TimeLineView[分时图]";
+			sourceTree = "<group>";
+		};
+		9FCA16512043D74D0045EAC9 /* VolumeView[成交量] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16522043D74D0045EAC9 /* YYTimeLineVolumeView.h */,
+				9FCA16532043D74D0045EAC9 /* YYTimeLineVolumeView.m */,
+			);
+			path = "VolumeView[成交量]";
+			sourceTree = "<group>";
+		};
+		9FCA165A2043D74D0045EAC9 /* StockDataModel[数据源Model] */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA165B2043D74D0045EAC9 /* RMFiveRecordModel.h */,
+				9FCA165C2043D74D0045EAC9 /* RMFiveRecordModel.m */,
+				9FCA165D2043D74D0045EAC9 /* RMLineDataModel.h */,
+				9FCA165E2043D74D0045EAC9 /* RMLineDataModel.m */,
+				9FCA165F2043D74D0045EAC9 /* RMTimeLineModel.h */,
+				9FCA16602043D74D0045EAC9 /* RMTimeLineModel.m */,
+			);
+			path = "StockDataModel[数据源Model]";
+			sourceTree = "<group>";
+		};
+		9FCA167E2043F15D0045EAC9 /* Futures */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA16A8204587FE0045EAC9 /* RMCandleBaseKLineView.h */,
+				9FCA16A7204587FD0045EAC9 /* RMCandleBaseKLineView.m */,
+				9FCA16A520455A280045EAC9 /* RMCandleLineView.h */,
+				9FCA16A420455A280045EAC9 /* RMCandleLineView.m */,
+				9FCA16A1204559F10045EAC9 /* RMCandlePageToolBar.h */,
+				9FCA16A2204559F10045EAC9 /* RMCandlePageToolBar.m */,
+				9FCA16852043F7C90045EAC9 /* RMNewFuturesMarketView.h */,
+				9FCA16862043F7C90045EAC9 /* RMNewFuturesMarketView.m */,
+				9F16B71A21BF629000DF81F0 /* RMNewOptionMarketView.h */,
+				9F16B71B21BF629000DF81F0 /* RMNewOptionMarketView.m */,
+				9FCA16882044F6AB0045EAC9 /* RMTimeLineView.h */,
+				9FCA16892044F6AC0045EAC9 /* RMTimeLineView.m */,
+				9FCA168B2044F6FD0045EAC9 /* ColorMacro.h */,
+				9FCA168D2044F7220045EAC9 /* RMCandleYAxis.h */,
+				9FCA168C2044F7220045EAC9 /* RMCandleYAxis.m */,
+				9FCA16902044F74E0045EAC9 /* RMCandleAnimateView.h */,
+				9FCA168F2044F74D0045EAC9 /* RMCandleAnimateView.m */,
+				9FCA16932044F8B20045EAC9 /* NSTimer+RMCandleBlocksSupport.h */,
+				9FCA16922044F8B20045EAC9 /* NSTimer+RMCandleBlocksSupport.m */,
+				9FCA16962044F8FC0045EAC9 /* RMCandleTimeOffsetView.h */,
+				9FCA16952044F8FC0045EAC9 /* RMCandleTimeOffsetView.m */,
+				9FCA16982044F9340045EAC9 /* UtilsMacro.h */,
+				9FCA169A2044F94F0045EAC9 /* NSDate+Category.h */,
+				9FCA16992044F94F0045EAC9 /* NSDate+Category.m */,
+			);
+			path = Futures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FCA14A62043A7E80045EAC9 /* RMCandleKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FCA14BD2043A7E80045EAC9 /* Build configuration list for PBXNativeTarget "RMCandleKit" */;
+			buildPhases = (
+				72EFA7F3A368116A363831F1 /* [CP] Check Pods Manifest.lock */,
+				9FCA14A32043A7E80045EAC9 /* Sources */,
+				9FCA14A42043A7E80045EAC9 /* Frameworks */,
+				9FCA14A52043A7E80045EAC9 /* Resources */,
+				8431E202B3EEAB622CDE5287 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMCandleKit;
+			productName = RMCandleKit;
+			productReference = 9FCA14A72043A7E80045EAC9 /* RMCandleKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FCA149F2043A7E80045EAC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Tinghui Yuan";
+				TargetAttributes = {
+					9FCA14A62043A7E80045EAC9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9FCA14A22043A7E80045EAC9 /* Build configuration list for PBXProject "RMCandleKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FCA149E2043A7E80045EAC9;
+			productRefGroup = 9FCA14A82043A7E80045EAC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FCA14A62043A7E80045EAC9 /* RMCandleKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FCA14A52043A7E80045EAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCA14C32043A8580045EAC9 /* RMCandleKit.podspec in Resources */,
+				9FCA166E2043D74D0045EAC9 /* YYFiveRecordTableViewCell.xib in Resources */,
+				9FCA14B72043A7E80045EAC9 /* LaunchScreen.storyboard in Resources */,
+				9FCA14B42043A7E80045EAC9 /* Assets.xcassets in Resources */,
+				9FCA14B22043A7E80045EAC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72EFA7F3A368116A363831F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RMCandleKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8431E202B3EEAB622CDE5287 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RMCandleKit/Pods-RMCandleKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RMCandleKit/Pods-RMCandleKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FCA14A32043A7E80045EAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCA166A2043D74D0045EAC9 /* RMCandleKlineVolumeView.m in Sources */,
+				9FCA16642043D74D0045EAC9 /* RMCandleLinePositionModel.m in Sources */,
+				9FCA16752043D74D0045EAC9 /* RMStock.m in Sources */,
+				9F3818DF21E44C9500479DB1 /* RMCandleConStant.m in Sources */,
+				9FCA16662043D74D0045EAC9 /* RMCandleKline.m in Sources */,
+				9FCA16A620455A290045EAC9 /* RMCandleLineView.m in Sources */,
+				9FCA16A3204559F10045EAC9 /* RMCandlePageToolBar.m in Sources */,
+				9FCA16672043D74D0045EAC9 /* MAline.m in Sources */,
+				9FCA166B2043D74D0045EAC9 /* RMCandleStockViewMaskView.m in Sources */,
+				9FCA152C2043A8D80045EAC9 /* RMKLineAndMinuteController.m in Sources */,
+				9FCA168E2044F7220045EAC9 /* RMCandleYAxis.m in Sources */,
+				9FCA169B2044F9500045EAC9 /* NSDate+Category.m in Sources */,
+				9FCA14AF2043A7E80045EAC9 /* ViewController.m in Sources */,
+				9FCA16872043F7C90045EAC9 /* RMNewFuturesMarketView.m in Sources */,
+				9FCA166D2043D74D0045EAC9 /* YYFiveRecordTableViewCell.m in Sources */,
+				9FCA16632043D74D0045EAC9 /* RMCandleTopBarView.m in Sources */,
+				9FCA16732043D74D0045EAC9 /* RMCandleStockViewKKline.m in Sources */,
+				9F16B71C21BF629000DF81F0 /* RMNewOptionMarketView.m in Sources */,
+				9FCA14BA2043A7E80045EAC9 /* main.m in Sources */,
+				9FCA14AC2043A7E80045EAC9 /* AppDelegate.m in Sources */,
+				9FCA16762043D74D0045EAC9 /* RMFiveRecordModel.m in Sources */,
+				9FCA16682043D74D0045EAC9 /* RMCandleKlineView.m in Sources */,
+				9FCA16912044F74E0045EAC9 /* RMCandleAnimateView.m in Sources */,
+				9FCA16A9204587FE0045EAC9 /* RMCandleBaseKLineView.m in Sources */,
+				9FCA16652043D74D0045EAC9 /* RMCandleVolumePositionModel.m in Sources */,
+				9FCA16942044F8B20045EAC9 /* NSTimer+RMCandleBlocksSupport.m in Sources */,
+				9F30C68E2248E85F0099BC19 /* RMCandleBaseMinuteView.m in Sources */,
+				9FCA16702043D74D0045EAC9 /* YYTimeLineMaskView.m in Sources */,
+				9FCA16622043D74D0045EAC9 /* RMCandleStockVariable.m in Sources */,
+				9FCA16692043D74D0045EAC9 /* RMCandleKlineMaskView.m in Sources */,
+				9FCA166C2043D74D0045EAC9 /* RMCandleStockScrollView.m in Sources */,
+				9FCA16972044F8FC0045EAC9 /* RMCandleTimeOffsetView.m in Sources */,
+				9FCA16782043D74D0045EAC9 /* RMTimeLineModel.m in Sources */,
+				9FCA16742043D74D0045EAC9 /* RMCandleStockViewTTimeLine.m in Sources */,
+				9FCA16612043D74D0045EAC9 /* UIColor+RMCandleStockTheme.m in Sources */,
+				9FCA166F2043D74D0045EAC9 /* YYFiveRecordView.m in Sources */,
+				9FCA168A2044F6AC0045EAC9 /* RMTimeLineView.m in Sources */,
+				9FCA16722043D74D0045EAC9 /* YYTimeLineVolumeView.m in Sources */,
+				9FCA16712043D74D0045EAC9 /* YYTimeLineView.m in Sources */,
+				9FCA16772043D74D0045EAC9 /* RMLineDataModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FCA14B02043A7E80045EAC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FCA14B12043A7E80045EAC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FCA14B52043A7E80045EAC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FCA14B62043A7E80045EAC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FCA14BB2043A7E80045EAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FCA14BC2043A7E80045EAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FCA14BE2043A7E80045EAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7DF4E05BC51C071E2E3968 /* Pods-RMCandleKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X34M6R8ZA;
+				INFOPLIST_FILE = RMCandleKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqfeq.RMCandleKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FCA14BF2043A7E80045EAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884EFBDA2EA6D53862CFF241 /* Pods-RMCandleKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X34M6R8ZA;
+				INFOPLIST_FILE = RMCandleKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqfeq.RMCandleKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FCA14A22043A7E80045EAC9 /* Build configuration list for PBXProject "RMCandleKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FCA14BB2043A7E80045EAC9 /* Debug */,
+				9FCA14BC2043A7E80045EAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FCA14BD2043A7E80045EAC9 /* Build configuration list for PBXNativeTarget "RMCandleKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FCA14BE2043A7E80045EAC9 /* Debug */,
+				9FCA14BF2043A7E80045EAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FCA149F2043A7E80045EAC9 /* Project object */;
+}
